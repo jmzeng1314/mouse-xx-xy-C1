@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564042473559.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2869849404",
+    "id" : "BB157907",
+    "lastKnownWriteTime" : 1564043940,
+    "last_content_update" : 1564043940341,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step2-heatmap-marker-genes/step2-seurat.R",
+    "project_path" : "step2-seurat.R",
+    "properties" : {
+        "cursorPosition" : "129,0",
+        "scrollLine" : "119"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563543408804.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "339495039",
+    "id" : "CF26EA67",
+    "lastKnownWriteTime" : 1564047683,
+    "last_content_update" : 1564047683085,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step4-DEG-heatmap/step2-heatmap-ROST.R",
+    "project_path" : "step2-heatmap-ROST.R",
+    "properties" : {
+        "cursorPosition" : "65,0",
+        "scrollLine" : "54"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

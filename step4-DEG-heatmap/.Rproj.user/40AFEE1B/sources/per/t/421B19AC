@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564049243530.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4162719234",
+    "id" : "421B19AC",
+    "lastKnownWriteTime" : 1564044967,
+    "last_content_update" : 1564044967,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step3-DEG-annotation/step1-DEG-by-monocle.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

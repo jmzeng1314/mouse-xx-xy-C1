@@ -1,0 +1,59 @@
+set.seed(123456789)
+#set.seed()产生随机数
+#用于设定随机数种子，一个特定的种子可以产生一个特定的伪随机序列，这个函数的主要目的，
+#是让你的模拟能够可重复出现，因为很多时候我们需要取随机数，但这段代码再跑一次的时候，
+#结果就不一样了，如果需要重复出现同样的模拟结果的话，就可以用set.seed()。
+library(pheatmap)
+library(Rtsne)
+library(ggfortify)
+library(mvtnorm)
+
+ng=500
+nc=20
+a1=rnorm(ng*nc);dim(a1)=c(ng,nc)
+a2=rnorm(ng*nc)+3;dim(a2)=c(ng,nc) 
+# 500个基因，40个细胞，其中细胞是行，基因是列
+a3=as.data.frame(t(cbind(a1,a2)))
+group_list=c(rep('a1',ncol(a1)),rep('a2',ncol(a2)))
+ rownames(a3)=c(paste0('cell_01_',1:nc),paste0('cell_02_',1:nc))
+ colnames(a3)=paste('gene_',1:ng,sep = '')
+pheatmap(a3,show_rownames = F,show_colnames = F)
+# 这里可以把分组信息加入
+dat1=a3
+dat1$group_list=group_list
+# https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html 
+pca_dat <- prcomp(dat1[,1:500], scale. = TRUE) 
+p=autoplot(pca_dat,data=dat1,colour='group_list') + theme_classic() + ggtitle('PCA plot')
+print(p)
+# 这个时候细胞被区分开，而且是很明显的一个主成分。
+
+str(pca_dat)
+# 首先看坐标
+pca_dat$x[1:4,1:4]
+# 等价于普通绘图。
+plot(pca_dat$x[,1:2])
+
+
+# 参考：http://www.sthda.com/english/wiki/print.php?id=202
+# http://www.sthda.com/english/wiki/factoextra-r-package-easy-multivariate-data-analyses-and-elegant-visualization
+dat2=a3
+# 这里列是基因，行是细胞，符合主成分分析输入形式。
+new_pca <- FactoMineR::PCA(
+  dat2, 
+  ncp = nrow(dat2), 
+  graph=FALSE
+)
+str(new_pca)
+new_pca$ind$coord[1:4,1:4]
+library(factoextra)
+fviz_pca_ind(new_pca,
+             geom.ind = "point", # show points only (nbut not "text")
+             col.ind = group_list, # color by groups
+             #palette = c("#00AFBB", "#E7B800"),
+             addEllipses = TRUE, # Concentration ellipses
+             legend.title = "Groups"
+)
+
+
+
+

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564056439646.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1160403460",
+    "id" : "4F837CD9",
+    "lastKnownWriteTime" : 1564047419,
+    "last_content_update" : 1564047419,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step3-DEG-annotation/step3-annotation.R",
+    "project_path" : "step3-annotation.R",
+    "properties" : {
+        "cursorPosition" : "91,14",
+        "scrollLine" : "91"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

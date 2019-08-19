@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564110898859.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2269578108",
+    "id" : "9DA387E6",
+    "lastKnownWriteTime" : 1563696720,
+    "last_content_update" : 1563696720,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step5-Slingshot/step2-Slingshot.R",
+    "project_path" : "step2-Slingshot.R",
+    "properties" : {
+        "cursorPosition" : "34,25",
+        "scrollLine" : "34",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563696434739.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3496286265",
+    "id" : "1E7210E0",
+    "lastKnownWriteTime" : 1563696467,
+    "last_content_update" : 1563696467680,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step4-DEG-heatmap/step1-heatmap-monocle.R",
+    "project_path" : "step1-heatmap-monocle.R",
+    "properties" : {
+        "cursorPosition" : "111,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

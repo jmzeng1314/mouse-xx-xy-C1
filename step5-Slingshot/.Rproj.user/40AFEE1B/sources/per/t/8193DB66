@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564110870940.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "171511445",
+    "id" : "8193DB66",
+    "lastKnownWriteTime" : 1564109187,
+    "last_content_update" : 1564109187,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step5-Slingshot/step1-DiffusionMap.R",
+    "project_path" : "step1-DiffusionMap.R",
+    "properties" : {
+        "cursorPosition" : "41,27",
+        "scrollLine" : "36"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

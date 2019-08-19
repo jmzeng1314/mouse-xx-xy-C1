@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564049227528.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2021353069",
+    "id" : "6E5BF4EC",
+    "lastKnownWriteTime" : 1563696259,
+    "last_content_update" : 1563696259,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step3-DEG-annotation/step2-DEG-by-ROTS.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "64,41",
+        "scrollLine" : "60"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

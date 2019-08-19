@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564110929661.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2813233222",
+    "id" : "44FF9763",
+    "lastKnownWriteTime" : 1564110282,
+    "last_content_update" : 1564110282,
+    "path" : "~/Nutstore Files/Nutstore/github/mouse-xx-xy-C1/step5-Slingshot/step3-visualization.R",
+    "project_path" : "step3-visualization.R",
+    "properties" : {
+        "cursorPosition" : "127,22",
+        "scrollLine" : "122",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
